@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>    
+    <title>Append</title>    
+    <!-- <link rel="stylesheet" href="/assets/css/style.css"> -->
+    <script>
+
+        $('document').ready(function(){
+            var newText = $('p');
+            newtext.append('<i>I just replaced something</i>');
+            $('#textBox').html(newText);
+
+            $("body").append("<h1>I love jQuery</h1>");
+            $("h1").css("border", "3px solid green");
+            $("h1:last").css("border", "3px solid red");
+
+        });
+
+    </script>
+
+
+
+    <style>
+
+    </style>
+
+
+</head>
+<body>
+
+    <div id="textBox">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt minus iste quidem? Autem voluptatibus error quibusdam quia dolorum, atque minima incidunt, veniam mollitia cupiditate sunt ad numquam possimus fugiat tempora!
+    </div>
+
+    <script src= "./assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>    
+    <title>Hover</title>    
+</head>
+<body>
+    
+    <div id="textBox">
+        <p class="textCopy">01 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta provident consequuntur debitis aut iure atque excepturi quae molestias, reiciendis inventore maxime et culpa reprehenderit beatae magnam laborum aliquid mollitia aperiam.</p>
+        <p>02 - Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta provident consequuntur debitis aut iure atque excepturi quae molestias, reiciendis inventore maxime et culpa reprehenderit beatae magnam laborum aliquid mollitia aperiam.</p>
+
+    </div>
+
+    <script>
+
+        $('document').ready(function(){
+
+            $('.textCopy').hover(highlightCopy);
+
+            function highlightCopy(){
+                $(this).toggleClass("highlight")
+            }
+        });
+
+    </script>
+
+    <style>
+        .highlight{
+            /* text-shadow: 1px 1px rgb(180, 180, 180); */
+            background: green;
+        }
+    </style>
+
+</body>
+</html>

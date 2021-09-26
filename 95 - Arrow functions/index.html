@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrow functions</title>
+
+    <script>
+
+        // Normal function syntax
+        function sum(a, b) {
+            return a + b
+        }
+        // Basic arrow function syntax
+        let sum2 = (a, b) => {
+            return a + b
+        }
+        // More consolidated arrow function
+        let sum3 = (a, b) => a + b
+
+        console.log(sum3(5, 8));
+        
+// _______________________________________________________________________________________
+
+        // Normal
+        function isPositive(number){
+            return number >= 0
+        }
+        // Basic Arrow
+        let isPositive2 = (number) => {
+            return number >= 0
+        }
+        // Concise Arrow
+        let isPositive3 = number => number >= 0
+        
+// _______________________________________________________________________________________
+
+        function randomNumber() {
+            return Math.random
+        }
+        let randomNumber2 = () => Math.random;
+
+// _______________________________________________________________________________________
+
+        document.addEventListener('click', function() {
+            console.log('click');
+        });
+
+        document.addEventListener('click', () => console.log('click'));
+
+
+// _______________________________________________________________________________________
+
+        var hello1 = () => console.log("hello");
+
+        var hello2 = function() {
+            console.log('hello2')
+        };
+
+        hello1();
+        hello2();
+// _______________________________________________________________________________________
+
+        var userName = "Peter"
+
+        var printName = name => console.log('My name is ' + name);
+
+        // printName("Clayton");
+        printName(userName);
+
+
+        var printName2 = () => {
+        newName = "Bob" 
+        console.log('My name is ' + newName);
+        };
+
+        printName2();
+
+
+        var printName3 = function() {
+        newName = "Clayton" 
+        console.log('My name is ' + newName);
+        };
+        
+        printName3();
+
+    </script>
+
+</head>
+<body>
+    
+</body>
+</html>

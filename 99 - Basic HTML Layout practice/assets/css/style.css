@@ -1,0 +1,53 @@
+* {
+  margin: 0.15rem;
+  border: 0.15rem solid black;
+  padding: 0.15rem;
+
+  /* Color Variables */
+  --color-primary: rgb(0, 152, 163);
+  --color-secondary: rgb(228, 236, 115);
+  --color-red: rgb(255, 113, 113);
+}
+
+body {
+  padding: 0px;
+  margin: 0px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--color-secondary);
+}
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--color-red);
+}
+article {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+}
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--color-primary);
+}
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: var(--color-primary);
+}
+.articlesContainer {
+  display: flex;
+  flex-direction: row;
+}

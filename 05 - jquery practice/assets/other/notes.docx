@@ -1,0 +1,21 @@
+These are notes for jQuery. 
+Here are changes to the document.
+
+Video link:
+https://www.youtube.com/watch?v=ScoURsEM_yU
+
+10:55 - Append an element to document
+15:57 - replace an element using ".html"
+28:14 - Event Handling
+35:30 - Hover (hide-show)
+47:31 - Fading
+
+
+1:02:32 - Toggle
+
+
+1:32:20 - Replace Text within an element
+1:36:32 - Append and Prepend content
+1:41:50 - Wrap and Replace
+1:47:46 - Add, remove and toggle class in CSS
+1:54:39 - Final Thoughts

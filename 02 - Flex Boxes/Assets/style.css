@@ -1,0 +1,52 @@
+.box-1 {
+    border: 3px solid #333;
+    background-color: yellow;
+}
+.box-2 {
+    border: 3px solid #333;
+    background-color: greenyellow;
+}
+.box-3 {
+    border: 3px solid #333;
+    background-color: blueviolet;
+    color: white;
+}
+
+.flexbox-container {
+    display: inline;
+    justify-content: space-around;
+}
+
+.flexbox-item {
+    width: 200px;
+    margin: 10px;
+    border: 3px solid #333;
+    background-color: #dfdfdf;
+}
+
+.flexbox-item-1 {
+    min-height: 100px;
+}
+
+.flexbox-item-2 {
+    min-height: 200px;
+}
+
+.flexbox-item-3 {
+    min-height: 300px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 500px;
+
+}
+
+h1 {
+    max-width: 200px;
+    justify-content: center;
+
+}
+
+p {
+    max-width: 200px;
+}

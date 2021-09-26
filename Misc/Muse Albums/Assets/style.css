@@ -1,0 +1,11 @@
+.album {
+  max-width: 300px;
+}
+.box-1 {
+  background-color: aqua;
+  border: black;
+  margin: 20px;
+}
+
+#album-art {
+}

@@ -1,0 +1,3 @@
+DOM Minipulation does NOT work if code is in <script></script> tags in HTML.
+All JS code must be in a SEPARATE js file and referenced at the bottom of <body> in HTML.
+FREAKING ANNOYING JUST SPEND LIKE 2 HRS ON THIS SHIT!

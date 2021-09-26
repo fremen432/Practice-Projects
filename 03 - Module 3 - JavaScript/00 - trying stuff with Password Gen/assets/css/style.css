@@ -1,0 +1,23 @@
+.btn {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    opacity: 50%;
+    cursor: pointer;
+}
+
+#run {
+    background-color: blue;
+    color: white;
+    height: 300px;
+    width: 100%;
+}
+
+#check {
+    background-color: greenyellow;
+    height: 300px;
+    width: 100%;
+
+}
